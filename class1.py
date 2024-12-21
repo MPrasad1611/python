@@ -7,5 +7,8 @@
 # cmp2=5+6j
 # print(cmp1+cmp2)
 
-dict={"r1":"ram","2":"helo"}
-print(dict["2"])
+# dict={"r1":"ram","2":"helo"}
+# print(dict["2"])
+l1=[1,2,3,4,"eeel"]
+
+print(l1)
