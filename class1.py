@@ -8,7 +8,10 @@
 # print(cmp1+cmp2)
 
 # dict={"r1":"ram","2":"helo"}
-# print(dict["2"])
-l1=[1,2,3,4,"eeel"]
+# print(set(dict))
+# str1="hello"
+# str2="hello"
+# print(id(str1))
+# print(id(str2))
 
-print(l1)
+# print(0 or 1)
