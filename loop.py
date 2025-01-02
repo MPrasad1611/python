@@ -19,3 +19,10 @@
 #     print("Bill:",u*10)
 # else:
 #     print("Bill:",u*20)
+i=1
+while i<=10:
+    j=1
+    while j<=30:
+        print(i,j)
+        j+=1
+    i+=1    
