@@ -28,11 +28,12 @@
 
 a1=int(input("Enter the first person age: "))
 a2=int(input("Enter the second person age: "))
-if a1>a2:
-    print("First person is older than second person")
-elif a1==a2:
-    print("Both are of same age")
+a3=int(input("Enter the third person age: "))
+if a1>a2 and a3>a2:
+    print("second person is youngest among all")
+elif a2>a1 and a3>a1:   
+    print("First Person is youngest among all")
+else:
+    print("Third person is youngest among all")
 
-else:   
-    print("Second person is older than first person")
 
