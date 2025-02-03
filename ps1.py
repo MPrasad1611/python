@@ -26,13 +26,18 @@
 #     print(q%r)
 # arthe(a,b)
 
-a1=int(input("Enter the first person age: "))
-a2=int(input("Enter the second person age: "))
-a3=int(input("Enter the third person age: "))
-if a1>a2 and a3>a2:
-    print("second person is youngest among all")
-elif a3>a1:   
-    print("First Person is youngest among all")
-else:
-    print("Third person is youngest among all")
+# a1=int(input("Enter the first person age: "))
+# a2=int(input("Enter the second person age: "))
+# a3=int(input("Enter the third person age: "))
+# if a1>a2 and a3>a2:
+#     print("second person is youngest among all")
+# elif a2>a1 and a3>a1:   
+#     print("First Person is youngest among all")
+# else:
+#     print("Third person is youngest among all")
 
+fnum=int(input("Enter the first number: "))
+snum=int(input("Enter the second number: "))
+tnum=int(input("Enter the third number: "))
+if fnum>snum and fnum>tnum:
+    print(f"fnum is greatest")
