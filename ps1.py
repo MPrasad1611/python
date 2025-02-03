@@ -31,9 +31,8 @@ a2=int(input("Enter the second person age: "))
 a3=int(input("Enter the third person age: "))
 if a1>a2 and a3>a2:
     print("second person is youngest among all")
-elif a2>a1 and a3>a1:   
+elif a3>a1:   
     print("First Person is youngest among all")
 else:
     print("Third person is youngest among all")
-
 
