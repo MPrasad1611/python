@@ -113,7 +113,7 @@ else:
     print(f"{tnum} is greatest")
 
 #vowel or consonant
-char=input("Enter any single character: ")
+char=input("Enter any single character: ").lower()
 if char.isalpha()==False:
     print("Not a character")
 elif char=="a" or char=="e" or char=="i" or char=="o" or char=="u":
