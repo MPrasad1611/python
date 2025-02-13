@@ -25,16 +25,26 @@
 #         print("Invalid Operation")
 #         i=int(input("Choose Operation Number:1.square,2.cube,3.Exit:"))
     
-num=int(input("Enter the number to check if it us a prime:"))
-if  num==1:
-    print("Not Prime")
-elif num==2:
-    print("Prime")
-else: 
- for i in range(2,num):
-    if num%i==0:
-        print("Not Prime")
-        break
-    else:
-        print("Prime")
-        break
+# num=int(input("Enter the number to check if it us a prime:"))
+# if  num==1:
+#     print("Not Prime")
+# elif num==2:
+#     print("Prime")
+# else: 
+#  for i in range(2,num):
+#     if num%i==0:
+#         print("Not Prime")
+#         break
+#     else:
+#         print("Prime")
+#         break
+# start = int(input("Enter the start of the range: "))
+# end = int(input("Enter the end of the range: "))
+
+# for num in range(start, end + 1):
+#     if num > 1:
+#         for i in range(2, int(num**0.5) + 1):
+#             if num % i == 0:
+#                 break
+#         else:
+#             print(num)
