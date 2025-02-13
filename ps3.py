@@ -47,7 +47,28 @@
 
 # else:
 #     pass
-for i in range(1,21):
-    print(f"3 X {i} = {3*i}")
-for i in range(0,101,3):
-    print(3,'X',int(i/3),'=',i)
+# for i in range(1,21):
+#     print(f"3 X {i} = {3*i}")
+# for i in range(0,101,3):
+#     print(3,'X',int(i/3),'=',i)
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+
+# number = int(input("Enter a number to calculate its factorial: "))
+# def factorial(n):
+#     result = 1
+#     for i in range(1, n + 1):
+#         result *= i
+#     return result
+
+# print(f"The factorial of {number} is {factorial(number)}")
+n=12345;
+r=0;
+while n>0:
+    r=r*10+n%10
+    n=n//10
+
+print(r)
