@@ -49,11 +49,13 @@
 #         else:
 #             print(num)
 # Swapping two numbers using XOR
-a = (input("Enter the first number: "))
-b = (input("Enter the second number: "))
+a = int(input("Enter the first number: "))
+b =int (input("Enter the second number: "))
 
 print(f"Before swapping: a = {a}, b = {b}")
 
+# a^a=0
+# 0^a=a
 a = a ^ b
 b = a ^ b
 a = a ^ b
