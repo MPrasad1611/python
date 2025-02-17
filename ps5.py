@@ -67,9 +67,6 @@ for n in range(start, end + 1):
         x = n % 10
         sum += x ** len(t1)
         n = n // 10
-
     if t == sum:
         print(f"{t} is an Armstrong number")
-    # else:
-    #     print(f"{t} is not an Armstrong number")
 
