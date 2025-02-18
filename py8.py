@@ -30,10 +30,10 @@ def max_min_sum(list_p):
         min=i if i < min else min
         sum+=i
     return max, min, sum
-list1=[1,2,3,4,5,6,7,8,9,10]
+list1=[100,2,3,4,5,6,7,8,9,10]
 max,min,sum=max_min_sum(list1)
-sl=list1[0]
+sl=float("-inf")
 for i in list1:
     if i!=max and i>sl:
         sl=i
-     
+print(sl)
