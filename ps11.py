@@ -18,4 +18,22 @@
 #     low+=1
 #     high-=1
 # print(list) 
-list1=[[3,4,5],[6,]7,8,[-10,-11,-12]]
+list1=[[3,4,5],[6,7,8],[-10,-11,-12]]
+# sum=0
+# for i in range(len(list1)):
+#     for j in range(len(list1[i])):
+#         if i==0 or i == len(list1)-1:
+#             sum+=list1[i][j]
+#         else:
+#             if j==0 or j==len(list1[i])-1:
+#                sum+=list1[i][j]
+# print(sum)
+# print(len(list1))
+sum=0
+sum2=0
+for i in range(len(list1)):
+    sum+=list1[i][i]
+    if list1[i][i]!=list1[i][len(list1)-i-1]:
+        sum2+=list1[i][len(list1)-i-1]
+
+print(sum+sum2)
