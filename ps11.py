@@ -5,6 +5,7 @@ list2=sorted(list1)
 # print(list2)
 re=[]
 for i in list1:
-    temp=list2.index(i)+1
+    temp=(len(list2)-(list2.index(i)))
     re.append(temp)
 print(re)
+print(list2)
