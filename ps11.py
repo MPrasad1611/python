@@ -30,10 +30,17 @@ list1=[[3,4,5],[6,7,8],[-10,-11,-12]]
 # print(sum)
 # print(len(list1))
 sum=0
-sum2=0
-for i in range(len(list1)):
-    sum+=list1[i][i]
-    if list1[i][i]!=list1[i][len(list1)-i-1]:
-        sum2+=list1[i][len(list1)-i-1]
+# sum2=0
+# for i in range(len(list1)):
+#     sum+=list1[i][i]
+#     if list1[i][i]!=list1[i][len(list1)-i-1]:
+#         sum2+=list1[i][len(list1)-i-1]
 
-print(sum+sum2)
+# print(sum+sum2)
+for i in range(len(list1)):
+    for j in range(len(list1[i])):
+          if i==j or i+j==len(list1)-1:
+               sum+=list1[i][j]
+               if i==j and i+j==len(list1)-1:
+                   sum+=list1[i][j]
+print(sum)
