@@ -47,14 +47,14 @@ key=10
 #      print(res)
 # else:
 #      print("Not Found")
-list1=[1,2,3,4]
-swap=False
-for j in range(len(list1)-1):
-  for i in range(0,len(list1)-j-1):
-    if list1[i]>list1[i+1]:
-       list1[i],list1[i+1]=list1[i+1],list1[i]
-       swap=True
-  if swap==False:
-    print("Already Sorted")
-    break
-print(list1)
+# list1=[1,2,3,4]
+# swap=False
+# for j in range(len(list1)-1):
+#   for i in range(0,len(list1)-j-1):
+#     if list1[i]>list1[i+1]:
+#        list1[i],list1[i+1]=list1[i+1],list1[i]
+#        swap=True
+#   if swap==False:
+#     print("Alre ady Sorted")
+#     break
+# print(list1)
