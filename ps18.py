@@ -29,15 +29,66 @@
 
 
 # print("MAX:",max)    
-str1="takeyouforward"
-pattern="forward"
-for i in range(len(str1)):
-    flag=True
-    for j in range(len(pattern)):
-        if str1[i+j]==pattern[j]:
-            pass
-        else:
-            flag=False
-            break
-    if flag==True:
-        print("Pattern found")    
+# str1="takeyouforward"
+# pattern="you"
+# indexat=-1
+# for i in range(len(str1)):
+#     flag=True
+#     temp=i
+#     for j in range(len(pattern)):
+#         if temp<len(str1) and str1[temp]==pattern[j]:
+#             temp+=1
+#         else:
+#             flag=False
+#             break
+#     if flag==True:
+#         indexat=i    
+# print(indexat)
+
+#patterns
+# n=int(input("Enter the no.of stars and rows:"))
+# for i in range(0,n):
+#     for j in range(0,n):
+#         print("* ",end= '')
+#     print()
+n=int(input("Enter the no.of stars and rows:"))
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if i>=j:
+#           print("* ",end= '')
+#     print()
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if i<=j:
+#           print("* ",end= '')
+#         else:
+#            print("  ",end='')
+#     print()
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if i==0 or i==n-1 or j==0 or j==n-1 or i==j or i+j==n-1:
+#           print("* ",end= '')
+#         else:
+#            print("  ",end='')
+#     print()
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if i==n-1 or j==0  or i==j :
+#           print("* ",end= '')
+#         else:
+#            print("  ",end='')
+#     print()
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if i==0 or j==n-1  or i==j :
+#           print("* ",end= '')
+#         else:
+#            print("  ",end='')
+#     print()
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if i==0 or j==0 or i+j==n-1:
+#           print("* ",end= '')
+#         else:
+#            print("  ",end='')
+#     print()
