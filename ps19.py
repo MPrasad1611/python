@@ -31,9 +31,17 @@ class Human:
     def __init__(self,name1,age1):
         self.name=name1
         self.age=age1
+    def display(self):
+        print(self.name,self.age)
+
+    def learn(self):
+        print(self.name,"I am learning")
 
 human1=Human("Rahul",20)
 human2=Human("Prasad",21)
-
 print(human1.name,human1.age)
 print(human2.name,human2.age)
+human1.display()
+human2.display()
+human1.learn()
+human2.learn()
