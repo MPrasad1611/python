@@ -98,21 +98,21 @@ n=int(input("Enter the no.of stars and rows:"))
 #         if i>=j:
 #          print(j+1,end=" ")
 #     print()
-# count=1
-# for i in range(0,n):
-#     for j in range(0,n):
-#         if i>=j:
-#          print(count,end=" ")
-#          count+=1
-#     print()
+count=1
 for i in range(0,n):
     for j in range(0,n):
         if i>=j:
-          print("* ",end= '')
+         print(count,end=" ")
+         count+=1
     print()
-for i in range(0,n):
-    for j in range(0,n):
-        if i<=j-1:
-          print("* ",end= '')
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if i>=j:
+#           print("* ",end= '')
+#     print()
+# for i in range(0,n):
+#     for j in range(0,n):
+#         if i<=j-1:
+#           print("* ",end= '')
        
-    print()
+#     print()
